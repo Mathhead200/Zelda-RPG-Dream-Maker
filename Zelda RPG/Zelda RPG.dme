@@ -1,0 +1,33 @@
+// DM Environment file for Zelda RPG.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Boss Battle Themes"
+#define FILE_DIR "Dungeon Themes"
+#define FILE_DIR "Misc Music Themes"
+#define FILE_DIR "Overworld Themes"
+#define FILE_DIR "Sprites"
+#define FILE_DIR "SpriteSheets"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Area.dm"
+#include "atom.dm"
+#include "Main.dm"
+#include "Mob.dm"
+#include "Movable.dm"
+#include "Obj.dm"
+#include "Quiver.dm"
+#include "Turf.dm"
+#include "interface.dmf"
+#include "Testing.dmm"
+// END_INCLUDE
+

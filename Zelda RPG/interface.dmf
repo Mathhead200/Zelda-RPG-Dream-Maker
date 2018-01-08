@@ -1,0 +1,193 @@
+macro "macro"
+	elem 
+		name = "CENTER"
+		command = "click"
+		is-disabled = false
+	elem 
+		name = "RETURN"
+		command = "click"
+		is-disabled = false
+	elem 
+		name = "SPACE+REP"
+		command = "sword"
+		is-disabled = false
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "1+REP"
+		command = "hammer"
+		is-disabled = false
+	elem 
+		name = "2+REP"
+		command = "feather"
+		is-disabled = false
+	elem 
+		name = "3+REP"
+		command = "arrow"
+		is-disabled = false
+	elem 
+		name = "A+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "ALT+CTRL+SHIFT+C"
+		command = "cheat"
+		is-disabled = false
+	elem 
+		name = "D+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "I"
+		command = "faceNorth"
+		is-disabled = false
+	elem 
+		name = "J"
+		command = "faceWest"
+		is-disabled = false
+	elem 
+		name = "K"
+		command = "faceSouth"
+		is-disabled = false
+	elem 
+		name = "L"
+		command = "faceEast"
+		is-disabled = false
+	elem 
+		name = "S+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "ALT+CTRL+SHIFT+U"
+		command = "uncheat"
+		is-disabled = false
+	elem 
+		name = "W+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "NUMPAD1+REP"
+		command = "hammer"
+		is-disabled = false
+	elem 
+		name = "NUMPAD2+REP"
+		command = "feather"
+		is-disabled = false
+	elem 
+		name = "NUMPAD3+REP"
+		command = "arrow"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "MainWindow"
+	elem "MainWindow"
+		type = MAIN
+		pos = 379,6
+		size = 540x630
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = ""
+		titlebar = true
+		statusbar = true
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = 'Sprites\\Link.dmi'
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "StatusMap"
+		type = MAP
+		pos = 96,8
+		size = 352x128
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = line
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		icon-size = 0
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+	elem "MainMap"
+		type = MAP
+		pos = 32,136
+		size = 480x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = line
+		drop-zone = true
+		right-click = true
+		saved-params = "icon-size"
+		icon-size = 0
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+
